@@ -1,7 +1,7 @@
 // backend/routes/opportunityRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Opportunity } = require('/home/rtr/Desktop/temp/models/Mongo.js');
+const { Opportunity } = require('../models/Mongo.js');
 
 router.post("/opportunity", async (req, res) => {
   try {

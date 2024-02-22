@@ -1,7 +1,7 @@
 // backend/routes/customerRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Customer } = require('/home/rtr/Desktop/temp/models/Mongo.js');
+const { Customer } = require('../models/Mongo.js');
 
 router.post("/customer", async (req, res) => {
   try {

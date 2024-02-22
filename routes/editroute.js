@@ -1,7 +1,7 @@
 // backend/routes/userRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Users } = require('/home/rtr/Desktop/temp/models/Mongo.js');
+const { Users } = require('../models/Mongo.js');
 
 // Endpoint to check if the username exists and retrieve user information
 router.get('/check-username/:username', async (req, res) => {
