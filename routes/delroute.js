@@ -1,7 +1,7 @@
 // backend/routes/userRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Users } = require('/home/azureuser/project/Deve/backend/models/Mongo.js');
+const { Users } = require('/home/rtr/Desktop/temp/models/Mongo.js');
 
 // Get all users
 router.get('/users', async (req, res) => {

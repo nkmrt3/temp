@@ -3,7 +3,7 @@
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require('uuid');
 
-mongoose.connect('mongodb://localhost:27017/CRM', {
+mongoose.connect('mongodb+srv://dbuser:dbadmin@cluster0.phgdtmn.mongodb.net/CRM', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

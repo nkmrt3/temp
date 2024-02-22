@@ -1,7 +1,7 @@
 // backend/routes/userRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Users } = require('/home/azureuser/project/Deve/backend/models/Mongo.js'); // Update the path
+const { Users } = require('/home/rtr/Desktop/temp/models/Mongo.js'); // Update the path
 
 let nextUserID = 10020; // Initialize the starting user ID
 

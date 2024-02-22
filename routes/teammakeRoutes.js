@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Team, Users } = require('/home/azureuser/project/Deve/backend/models/Mongo'); // Update the path
+const { Team, Users } = require('/home/rtr/Desktop/temp/models/Mongo.js'); // Update the path
 
 router.post('/create-team', async (req, res) => {
   const { teamName, teamLead, teamMembers } = req.body;

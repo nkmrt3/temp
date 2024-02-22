@@ -1,7 +1,7 @@
 // backend/routes/customerRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Customer } = require('/home/azureuser/project/Deve/backend/models/Mongo.js');
+const { Customer } = require('/home/rtr/Desktop/temp/models/Mongo.js');
 
 router.post("/customer", async (req, res) => {
   try {
